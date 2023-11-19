@@ -21,9 +21,12 @@
 
 namespace gpu {
 
-using index = std::uint32_t;
-using poracle = std::uint32_t;
-using oracle = std::uint32_t;
+// using index = std::uint32_t;
+// using poracle = std::uint32_t;
+// using oracle = std::uint32_t;
+using index = int;
+using poracle = int;
+using oracle = int;
 using mask = std::uint32_t;
 
 constexpr index warp_size_log2 = 5;
